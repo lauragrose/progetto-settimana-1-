@@ -1,0 +1,136 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* HEADER */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    text-align: center;
+    padding-top: 2rem;
+}
+article a:link, article a:visited {
+    text-decoration: none;
+    background-color: #D54D2E;
+    color: white;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+article p {
+    margin-bottom: 2rem;
+}
+h1 {
+    color: #1F9FB3;
+    font-size: 2rem; 
+    line-height: 1.65;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+header img {
+    width: 70%;
+    padding: 2rem;
+}
+header > div {
+    background-color: black;
+}
+article {
+    background-image: url(../images/banner.jpg);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    background-size: cover;
+}
+
+/* MAIN */
+header p {
+    padding-bottom: 2rem;
+}
+p {
+    line-height: 1.65;
+}
+main {
+    text-align: center;
+}
+main h3 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+h3 {
+    color: #1F9FB3;
+}
+main > div {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+main > img {
+    border-radius: 100px 100px 100px 100px;
+}
+blockquote  {
+    font-style: italic;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+section {
+    background-color: #E52E17;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+aside {
+    text-align: center;
+    line-height: 1.65;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+aside > img {
+   width: 100%;
+}
+aside > div {
+    border-radius: 0px 0px 4px 4px;
+    border: 0.2px solid black;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    
+}
+aside h3, h2 {
+   font-weight: 700;
+}
+
+h2 {
+    font-family: bold;
+    line-height: 1.65;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #22AACC;
+    color: #c8e7f0;
+    padding: 1rem;
+    padding-bottom: 5rem;
+}
+ul {
+    list-style: none;
+}
+footer li {
+    margin-bottom: 1rem;
+}
+footer a:link, footer a:visited {
+    color: #c8e7f0;
+}
